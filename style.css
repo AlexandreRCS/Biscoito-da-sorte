@@ -1,14 +1,27 @@
+*{
+    -webkit-font-smoothing: antialiased ;
+    -moz-font-smoothing: grayscale;
+}
+
 body{
     display: grid;
     place-items: center;
     height: 100vh;
 
     background: linear-gradient(45deg, #190361 0%, #B0F 100%);
+
+    font-size: 1.6rem;
+}
+
+:root{
+    font-size: 62.5%;
 }
 
 main{
     margin-top: -100px;
 
     background-color: #ffffff;
+
+    text-align: center;
 }
 
