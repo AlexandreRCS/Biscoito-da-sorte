@@ -59,6 +59,7 @@ h1, h2{
 
 #openCookie{
     padding: 3rem 0;
+    cursor: pointer;
 }
 
 .container{
